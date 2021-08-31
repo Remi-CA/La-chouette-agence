@@ -232,6 +232,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    text-decoration: none;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -326,6 +327,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 18px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -365,8 +367,8 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 40%;
+        right: 10%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -407,6 +409,7 @@ a:hover {
     background: none!important;
     display: block;
     padding: 14px 15px;
+    
 }
 
 nav .caret {
